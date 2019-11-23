@@ -14,6 +14,7 @@ private Calcul cacul;
 	@org.junit.Test
 	public void test() {
 		assertEquals(10, cacul.addition(10, 0));
+		assertEquals(10, cacul.multiplication(10, 1));
 		
 	}
 
